@@ -115,9 +115,9 @@ Compare statistical, Machine Learning and Deep Learning approaches for financial
 
 `Python Essentials 1` DONE
 
-→ **Python Essentials 2 — CURRENT**
+`Python Essentials 2` DONE
 
-→ Kaggle Python & Pandas
+**Kaggle Python & Pandas** CURRENT
 
 → ⛽ Fuel Price Tracker
 
