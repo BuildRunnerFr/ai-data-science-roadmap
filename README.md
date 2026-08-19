@@ -1,262 +1,138 @@
-# 🚀 AI & Data Science Roadmap
+# AI & Data Science Roadmap
 
-Personal roadmap to build strong skills in **Python, Data Analysis, Machine Learning and AI** through courses, certifications and real-world projects.
+Roadmap to develop my skills in Python, Data Science and Machine Learning through courses, certifications and real-world projects.
 
----
+## 1. Python
 
-## 🐍 1. Python Foundations
+- [x] Cisco Python Essentials 1
+- [x] Cisco Python Essentials 2
+- [x] Kaggle Python
+- [ ] Kaggle Pandas
+- [ ] Kaggle Data Cleaning
+- [ ] Kaggle Data Visualization
+- [ ] HackerRank Python Basic
 
-- [x] Cisco — Python Essentials 1
-- [ ] Cisco — Python Essentials 2
-- [ ] Kaggle — Python
-- [ ] Kaggle — Pandas
-- [ ] Kaggle — Data Cleaning
-- [ ] Kaggle — Data Visualization
-- [ ] HackerRank — Python Basic
+### Project 1 — Fuel Price Tracker
 
-### 🎯 Project 1 — Fuel Price Tracker France ⛽
+Automated analysis of fuel prices across France using French government open data.
 
-Build an automated system using French government open data.
+**Goals:** daily data collection, price history, cheapest nearby station, price analysis.
 
-- [ ] Retrieve fuel prices from French Open Data
-- [ ] Clean and process station data
-- [ ] Store historical prices
-- [ ] Run automatic daily collection
-- [ ] Track price evolution
-- [ ] Find cheapest stations nearby
-- [ ] Add geographical visualization
-- [ ] Build dashboard
-
-**Tech:** Python · Pandas · Open Data · SQL · Automation · GeoData
+**Skills:** Python, Pandas, APIs, automation, geolocation.
 
 ---
 
-## 🗄️ 2. SQL & Data Analysis
+## 2. SQL & Data Analysis
 
-- [ ] Kaggle — Intro to SQL
-- [ ] Kaggle — Advanced SQL
-- [ ] HackerRank — SQL Basic
-- [ ] HackerRank — SQL Intermediate
+- [ ] Kaggle Intro to SQL
+- [ ] Kaggle Advanced SQL
+- [ ] HackerRank SQL Basic
+- [ ] HackerRank SQL Intermediate
 
-### 🎯 Project 2 — SNCF Delay Analytics 🚆
+### Project 2 — SNCF Delay Analysis
 
-Analyze train delays across France using SNCF public data.
+Analyze SNCF train delays across France using public data.
 
-- [ ] Collect SNCF data through API/Open Data
-- [ ] Automate data collection
-- [ ] Build historical database
-- [ ] Calculate average and median delays
-- [ ] Rank lines/trains by delays
-- [ ] Compare stations and routes
-- [ ] Analyze delay evolution
-- [ ] Build interactive dashboard
+**Goals:** delay history, rankings by train/line/station, statistics and dashboard.
 
-**Tech:** Python · API · Pandas · SQL · Statistics · Dashboard
+**Skills:** Python, SQL, APIs, Pandas, data visualization.
 
 ---
 
-## 🏠 3. Real Estate Data Analysis
+## 3. Real Estate Data
 
-### 🎯 Project 3 — French Real Estate Analytics
+### Project 3 — French Real Estate Analysis
 
-Analyze the French real estate market using **DVF (Demandes de valeurs foncières)**.
+Analyze French real estate transactions using the DVF dataset.
 
-- [ ] Import DVF data
-- [ ] Clean transactions
-- [ ] Calculate price per m²
-- [ ] Compare houses vs apartments
-- [ ] Analyze cities/departments/regions
-- [ ] Analyze price evolution
-- [ ] Detect outliers
-- [ ] Build interactive maps
-- [ ] Build dashboard
+**Goals:** price/m², geographical comparisons, price evolution and interactive maps.
 
-**Tech:** Python · Pandas · SQL · GeoPandas · Statistics · Data Visualization
+**Skills:** Python, Pandas, SQL, statistics, geospatial data.
 
 ---
 
-## 📊 4. Data Science & Machine Learning
-
-### Courses
+## 4. Data Science & Machine Learning
 
 - [ ] Google Advanced Data Analytics Professional Certificate
-- [ ] Kaggle — Intro to Machine Learning
-- [ ] Kaggle — Intermediate Machine Learning
-- [ ] Kaggle — Feature Engineering
-- [ ] Kaggle — Machine Learning Explainability
-- [ ] Andrew Ng — Machine Learning Specialization
+- [ ] Kaggle Intro to Machine Learning
+- [ ] Kaggle Intermediate Machine Learning
+- [ ] Kaggle Feature Engineering
+- [ ] Kaggle Machine Learning Explainability
+- [ ] Andrew Ng Machine Learning Specialization
 
-> IBM Data Science Professional Certificate can be used as an alternative to Google Advanced Data Analytics.
+### Project 4 — Real Estate & Energy Analysis
 
----
+Combine DVF transactions with ADEME DPE data.
 
-## 🌱 5. Real Estate & Energy
+**Goals:** analyze relationships between property prices, location, energy rating and energy consumption.
 
-### 🎯 Project 4 — DVF × DPE Analytics
+**Skills:** data cleaning, data merging, statistics, visualization.
 
-Combine French real estate transactions with **ADEME DPE energy-performance data**.
+### Project 5 — Real Estate Price Prediction
 
-- [ ] Retrieve DPE data
-- [ ] Clean DPE dataset
-- [ ] Combine DVF + DPE
-- [ ] Analyze energy classes A–G
-- [ ] Compare price/m² by DPE
-- [ ] Analyze energy consumption
-- [ ] Analyze emissions
-- [ ] Compare geographical differences
-- [ ] Study building age
-- [ ] Perform statistical analysis
-- [ ] Estimate relationship between DPE and property prices
-- [ ] Build dashboard
+Predict French property prices using DVF and DPE data.
 
-**Tech:** Python · Pandas · SQL · Statistics · GeoData · Data Fusion
+**Skills:** scikit-learn, regression, feature engineering, model evaluation, XGBoost, SHAP.
 
 ---
 
-## 🤖 6. Machine Learning Project
+## 5. Deep Learning
 
-### 🎯 Project 5 — French Real Estate Price Prediction
+### Project 6 — Neural Network From Scratch
 
-Build ML models using DVF/DPE data.
+Build and train a neural network using NumPy without a deep learning framework.
 
-- [ ] Build ML-ready dataset
-- [ ] Feature engineering
-- [ ] Create baseline model
-- [ ] Linear Regression
-- [ ] Random Forest
-- [ ] Gradient Boosting / XGBoost
-- [ ] Cross-validation
-- [ ] Hyperparameter tuning
-- [ ] MAE / RMSE evaluation
-- [ ] Compare models
-- [ ] SHAP explainability
-- [ ] Error analysis
+**Skills:** NumPy, linear algebra, gradient descent, backpropagation.
 
-**Tech:** scikit-learn · XGBoost · Pandas · SHAP
-
----
-
-## 🧠 7. Deep Learning
-
-### 🎯 Project 6 — Neural Network From Scratch
-
-Implement a neural network without a Deep Learning framework.
-
-- [ ] Neurons with NumPy
-- [ ] Forward propagation
-- [ ] Activation functions
-- [ ] Loss functions
-- [ ] Gradient descent
-- [ ] Backpropagation
-- [ ] Training loop
-- [ ] Classification problem
-- [ ] Training visualization
-- [ ] Compare implementation with PyTorch
-
-**Tech:** Python · NumPy · Mathematics · PyTorch
-
-### Deep Learning
+Then:
 
 - [ ] PyTorch
 - [ ] Neural Networks
-- [ ] Optimization
 - [ ] CNN
 - [ ] Transformers fundamentals
 
 ---
 
-## 📈 8. Time Series & Finance
+## 6. Time Series
 
-### 🎯 Project 7 — Stock Market Forecasting
+### Project 7 — Stock Market Forecasting
 
-Study whether ML/DL models can extract predictive information from financial time series.
+Compare statistical, Machine Learning and Deep Learning approaches for financial time-series forecasting.
 
-- [ ] Retrieve financial data
-- [ ] Exploratory Data Analysis
-- [ ] Feature engineering
-- [ ] Naive baseline
-- [ ] Statistical time-series models
-- [ ] Machine Learning models
-- [ ] LSTM
-- [ ] Transformer experiment
-- [ ] Backtesting
-- [ ] Prevent data leakage
-- [ ] Compare models
-- [ ] Evaluate against baseline
-
-**Tech:** Python · Pandas · Time Series · Machine Learning · PyTorch
+**Skills:** time series, backtesting, ML, LSTM, PyTorch.
 
 ---
 
-## 🏆 9. Professional Certifications
+## 7. Certifications
 
-### Python
-
-- [ ] PCAP — Certified Associate Python Programmer *(optional)*
-
-### Machine Learning / Data
-
-Choose depending on specialization:
-
-- [ ] AWS Certified Machine Learning Engineer — Associate
-
-or
-
-- [ ] Databricks Certified Machine Learning Associate
+- [ ] PCAP — (optional)
+- [ ] AWS Machine Learning Engineer Associate
+- [ ] Databricks Machine Learning Associate
 
 ---
 
-# 📂 Project Portfolio
+## Current Progress
 
-| # | Project | Main Skills | Status |
-|---|---|---|---|
-| 1 | ⛽ Fuel Price Tracker France | Python · Pandas · API · Automation | ⏳ Planned |
-| 2 | 🚆 SNCF Delay Analytics | API · SQL · Dashboard | ⏳ Planned |
-| 3 | 🏠 French Real Estate Analytics | DVF · Pandas · GeoData | ⏳ Planned |
-| 4 | 🌱 DVF × DPE Analytics | Data Fusion · Statistics | ⏳ Planned |
-| 5 | 🤖 Real Estate Price Prediction | Machine Learning · XGBoost · SHAP | ⏳ Planned |
-| 6 | 🧠 Neural Network From Scratch | NumPy · Mathematics · Deep Learning | ⏳ Planned |
-| 7 | 📈 Stock Market Forecasting | Time Series · ML · Deep Learning | ⏳ Planned |
+`Python Essentials 1` DONE
 
----
+`Python Essentials 2` DONE
 
-## 📍 Current Progress
+→ **Kaggle Python & Pandas** CURRENT
 
-**Python Essentials 1** ✅
-
-→ **Python Essentials 2** 🚀 CURRENT
-
-→ Kaggle Python / Pandas / Data Cleaning / Visualization
-
-→ ⛽ Fuel Price Tracker
+→ Fuel Price Tracker
 
 → SQL
 
-→ 🚆 SNCF Delay Analytics
+→ SNCF Delay Analysis
 
-→ 🏠 DVF Analytics
+→ DVF Real Estate Analysis
 
 → Machine Learning
 
-→ 🌱 DVF × DPE
+→ DVF + DPE
 
-→ 🤖 Real Estate ML
+→ Real Estate Price Prediction
 
-→ 🧠 Neural Network From Scratch
+→ Neural Network From Scratch
 
-→ 📈 Financial Time Series
-
-→ 🏆 Professional Certification
-
----
-
-## 🎯 Long-Term Goal
-
-Build the skills required for:
-
-- Data Science
-- Machine Learning Engineering
-- AI Engineering
-- Data Analysis
-
-while maintaining a portfolio of **real-world, reproducible and documented projects**.
+→ Stock Market Forecasting
