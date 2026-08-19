@@ -5,14 +5,14 @@ Roadmap to develop my skills in Python, Data Science and Machine Learning throug
 ## 1. Python
 
 - [x] Cisco Python Essentials 1
-- [x] Cisco Python Essentials 2
-- [x] Kaggle Python
+- [ ] Cisco Python Essentials 2
+- [ ] Kaggle Python
 - [ ] Kaggle Pandas
 - [ ] Kaggle Data Cleaning
 - [ ] Kaggle Data Visualization
 - [ ] HackerRank Python Basic
 
-### Project 1 — Fuel Price Tracker
+### ⛽ Project 1 — Fuel Price Tracker
 
 Automated analysis of fuel prices across France using French government open data.
 
@@ -29,7 +29,7 @@ Automated analysis of fuel prices across France using French government open dat
 - [ ] HackerRank SQL Basic
 - [ ] HackerRank SQL Intermediate
 
-### Project 2 — SNCF Delay Analysis
+### 🚆 Project 2 — SNCF Delay Analysis
 
 Analyze SNCF train delays across France using public data.
 
@@ -41,7 +41,7 @@ Analyze SNCF train delays across France using public data.
 
 ## 3. Real Estate Data
 
-### Project 3 — French Real Estate Analysis
+### 🏠 Project 3 — French Real Estate Analysis
 
 Analyze French real estate transactions using the DVF dataset.
 
@@ -60,7 +60,7 @@ Analyze French real estate transactions using the DVF dataset.
 - [ ] Kaggle Machine Learning Explainability
 - [ ] Andrew Ng Machine Learning Specialization
 
-### Project 4 — Real Estate & Energy Analysis
+### 🌱 Project 4 — Real Estate & Energy Analysis
 
 Combine DVF transactions with ADEME DPE data.
 
@@ -68,7 +68,7 @@ Combine DVF transactions with ADEME DPE data.
 
 **Skills:** data cleaning, data merging, statistics, visualization.
 
-### Project 5 — Real Estate Price Prediction
+### 🤖 Project 5 — Real Estate Price Prediction
 
 Predict French property prices using DVF and DPE data.
 
@@ -78,7 +78,7 @@ Predict French property prices using DVF and DPE data.
 
 ## 5. Deep Learning
 
-### Project 6 — Neural Network From Scratch
+### 🧠 Project 6 — Neural Network From Scratch
 
 Build and train a neural network using NumPy without a deep learning framework.
 
@@ -95,7 +95,7 @@ Then:
 
 ## 6. Time Series
 
-### Project 7 — Stock Market Forecasting
+### 📈 Project 7 — Stock Market Forecasting
 
 Compare statistical, Machine Learning and Deep Learning approaches for financial time-series forecasting.
 
@@ -105,7 +105,7 @@ Compare statistical, Machine Learning and Deep Learning approaches for financial
 
 ## 7. Certifications
 
-- [ ] PCAP — (optional)
+- [ ] PCAP — optional
 - [ ] AWS Machine Learning Engineer Associate
 - [ ] Databricks Machine Learning Associate
 
@@ -115,24 +115,24 @@ Compare statistical, Machine Learning and Deep Learning approaches for financial
 
 `Python Essentials 1` DONE
 
-`Python Essentials 2` DONE
+→ **Python Essentials 2 — CURRENT**
 
-→ **Kaggle Python & Pandas** CURRENT
+→ Kaggle Python & Pandas
 
-→ Fuel Price Tracker
+→ ⛽ Fuel Price Tracker
 
 → SQL
 
-→ SNCF Delay Analysis
+→ 🚆 SNCF Delay Analysis
 
-→ DVF Real Estate Analysis
+→ 🏠 DVF Real Estate Analysis
 
 → Machine Learning
 
-→ DVF + DPE
+→ 🌱 DVF + DPE
 
-→ Real Estate Price Prediction
+→ 🤖 Real Estate Price Prediction
 
-→ Neural Network From Scratch
+→ 🧠 Neural Network From Scratch
 
-→ Stock Market Forecasting
+→ 📈 Stock Market Forecasting
